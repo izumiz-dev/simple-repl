@@ -1,22 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <Repl></Repl>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Repl from "./components/Repl.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    // eslint-disable-next-line vue/no-unused-components
+    Repl,
   },
 };
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
